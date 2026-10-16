@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Taiga Labs — independent open-source tooling for Angular and the Taiga UI ecosystem" />
+  <img src="./assets/banner.webp" width="100%" alt="Taiga Labs — independent open-source tooling for Angular and the Taiga UI ecosystem" />
 
   <br />
 
