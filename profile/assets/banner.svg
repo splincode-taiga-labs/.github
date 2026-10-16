@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">splincode / Taiga Labs</title>
+  <desc id="desc">An original pine forest inspired graphic for an independent Angular and Taiga UI community workshop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101822"/>
+      <stop offset=".52" stop-color="#102c30"/>
+      <stop offset="1" stop-color="#0a1b25"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#67f1c1"/>
+      <stop offset=".65" stop-color="#6ddfdd"/>
+      <stop offset="1" stop-color="#ba9bff"/>
+    </linearGradient>
+    <linearGradient id="foliage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#80f7b5"/>
+      <stop offset=".56" stop-color="#39c99e"/>
+      <stop offset="1" stop-color="#1c847c"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#172f36"/>
+      <stop offset="1" stop-color="#275351"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#70e5bc" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#70e5bc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#c5fcef" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="38"/></filter>
+  </defs>
+  <rect width="1600" height="480" fill="url(#bg)"/>
+  <rect width="1600" height="480" fill="url(#grid)"/>
+  <circle cx="1260" cy="230" r="350" fill="url(#halo)"/>
+  <path d="M0 416 Q320 356 625 414 T1220 398 T1600 372 V480 H0Z" fill="#122b31" opacity=".8"/>
+  <path d="M0 462 Q420 410 820 460 T1600 427 V480 H0Z" fill="url(#mist)" opacity=".54"/>
+  <path d="M90 63H1510" stroke="#9adccf" stroke-opacity=".19"/>
+  <path d="M90 420H1510" stroke="#9adccf" stroke-opacity=".19"/>
+  <path d="M90 63V420" stroke="#9adccf" stroke-opacity=".19"/>
+  <circle cx="90" cy="63" r="4" fill="#74e9be"/>
+  <circle cx="1510" cy="63" r="4" fill="#f2ab8f"/>
+  <circle cx="90" cy="420" r="4" fill="#74e9be"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="135" y="119" fill="#8de5c5" font-size="20" font-weight="650" letter-spacing="5">SPLINCODE  /  COMMUNITY WORKSHOP</text>
+    <text x="126" y="251" fill="#f4fcf8" font-size="105" font-weight="800" letter-spacing="-5">Taiga Labs</text>
+    <rect x="135" y="281" width="70" height="5" rx="2.5" fill="#68e8b6"/>
+    <text x="224" y="294" fill="#c5e0d9" font-size="30" font-weight="400" letter-spacing=".4">Build better. Test smarter.</text>
+    <rect x="134" y="336" width="399" height="43" rx="21.5" fill="#73efc0" fill-opacity=".09" stroke="#73efc0" stroke-opacity=".42"/>
+    <circle cx="157" cy="357" r="5" fill="#79ecc1"/>
+    <text x="176" y="364" fill="#c9f5e8" font-size="17" font-weight="600" letter-spacing=".65">INDEPENDENT OPEN SOURCE</text>
+  </g>
+  <g opacity=".32" fill="none" stroke="#6be4c3" stroke-width="2">
+    <circle cx="1237" cy="239" r="190"/>
+    <circle cx="1237" cy="239" r="160" stroke-dasharray="2 11"/>
+    <path d="M999 166L1058 166 1097 127 1172 127M1410 348L1450 348 1479 319"/>
+    <circle cx="1001" cy="166" r="5" fill="#6be4c3" stroke="none"/>
+    <circle cx="1479" cy="319" r="5" fill="#6be4c3" stroke="none"/>
+  </g>
+  <g opacity=".3" fill="#4ba58e">
+    <path d="M1023 385L1083 260 1143 385Z"/>
+    <path d="M1381 400L1454 254 1527 400Z"/>
+  </g>
+  <g transform="translate(1224 222)">
+    <path d="M0-156L-116-8H-65L-148 88H-82L-170 177H170L82 88H148L65-8H116Z" fill="#0b2730" stroke="#72edc0" stroke-width="4"/>
+    <path d="M0-146L-105-11H-59L-135 81H-71L-153 165H0Z" fill="url(#foliage)"/>
+    <path d="M0-146L105-11H59L135 81H71L153 165H0Z" fill="#238e83"/>
+    <path d="M0-146V165" stroke="#c0ffdb" stroke-opacity=".4" stroke-width="3"/>
+    <path d="M-87-9H90M-118 81H118" stroke="#d2ffe4" stroke-opacity=".18" stroke-width="3"/>
+    <path d="M-57 165H57" stroke="#8cecc4" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-12" y="167" width="24" height="43" rx="5" fill="#a87861"/>
+    <circle cx="-104" cy="82" r="8" fill="#f5ac95"/>
+    <circle cx="85" cy="-10" r="6" fill="#c8adfc"/>
+    <circle cx="0" cy="-146" r="8" fill="#f6c99d"/>
+  </g>
+  <g fill="#a0ffe2" opacity=".82">
+    <path d="M993 255h12M999 249v12" stroke="#a0ffe2" stroke-width="2"/>
+    <circle cx="1492" cy="155" r="3"/>
+    <circle cx="1459" cy="198" r="3"/>
+    <circle cx="1057" cy="335" r="3"/>
+  </g>
+  <g font-family="monospace" font-size="18" opacity=".7">
+    <text x="966" y="117" fill="#7ecab5">&lt;ui /&gt;</text>
+    <text x="1423" y="386" fill="#ddc0f6">{...}</text>
+  </g>
+</svg>
